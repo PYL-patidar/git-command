@@ -29,4 +29,10 @@ Command : git checkout -b <branch_name>
 command : git switch <branch_name>
 
 
+# merge 
 
+1) merge to current branch (fast-forward)
+
+Command : git merge dev 
+
+2) merge to current branch (with merge commit)
