@@ -33,6 +33,8 @@ command : git switch <branch_name>
 
 1) merge to current branch (fast-forward)
 
-Command : git merge dev 
+Command : git merge dev --fast-forwarding 
 
 2) merge to current branch (with merge commit)
+
+Command : git merge dev --merge-commit
